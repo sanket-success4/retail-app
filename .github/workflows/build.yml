@@ -17,9 +17,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: nerdify/ping-action@1.0.0
 
     # Runs a single command using the runners shell
     - name: Ping URL
-      run: ping http://ec2-13-233-168-125.ap-south-1.compute.amazonaws.com:8080/job/React%20Pipeline/build?token=a8b6de25b5bf481824c9c4173c56231a
+      run: curl http://ec2-13-233-168-125.ap-south-1.compute.amazonaws.com:8080/job/React%20Pipeline/build?token=a8b6de25b5bf481824c9c4173c56231a
