@@ -20,4 +20,4 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Ping URL
-      run: ping http://ec2-13-233-168-125.ap-south-1.compute.amazonaws.com:8080/job/React%20Pipeline/build?token=a8b6de25b5bf481824c9c4173c56231a
+      run: curl http://ec2-13-233-168-125.ap-south-1.compute.amazonaws.com:8080/job/React%20Pipeline/build?token=a8b6de25b5bf481824c9c4173c56231a
