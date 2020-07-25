@@ -1086,6 +1086,7 @@ section
 }
 .product
 {
+	margin-right: 1%;
 	width: calc((100% - 90px) / 4);
 	margin-bottom: 59px;
 }

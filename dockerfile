@@ -14,4 +14,4 @@ FROM nginx:latest
 
 COPY --from=build-stage home/frontend/build/ /usr/share/nginx/html
 
-COPY --from=build-stage home/frontend/nginx_conf/nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=build-stage home/frontend/nginx_conf/nginx.conf /etc/nginx/nginx.conf
